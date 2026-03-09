@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose-dark h1 { @apply text-3xl font-bold text-white mt-8 mb-4; }
+.prose-dark h2 { @apply text-2xl font-semibold text-white mt-6 mb-3; }
+.prose-dark h3 { @apply text-xl font-semibold text-gray-200 mt-5 mb-2; }
+.prose-dark p { @apply text-gray-300 leading-relaxed mb-4; }
+.prose-dark ul { @apply list-disc list-inside text-gray-300 mb-4 space-y-1; }
+.prose-dark ol { @apply list-decimal list-inside text-gray-300 mb-4 space-y-1; }
+.prose-dark li { @apply text-gray-300; }
+.prose-dark code { @apply bg-gray-800 text-green-400 px-1.5 py-0.5 rounded text-sm; }
+.prose-dark pre { @apply bg-gray-900 border border-gray-700 rounded-lg p-4 overflow-x-auto mb-4; }
+.prose-dark pre code { @apply bg-transparent p-0; }
+.prose-dark blockquote { @apply border-l-4 border-blue-500 pl-4 italic text-gray-400 mb-4; }
+.prose-dark table { @apply w-full border-collapse mb-4; }
+.prose-dark th { @apply bg-gray-800 text-left p-3 border border-gray-700 text-white font-semibold; }
+.prose-dark td { @apply p-3 border border-gray-700 text-gray-300; }
+.prose-dark a { @apply text-blue-400 hover:text-blue-300 underline; }
+.prose-dark strong { @apply text-white font-semibold; }
+.prose-dark hr { @apply border-gray-700 my-6; }
+
+body { background-color: #0a0a0a; color: #e5e5e5; }
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
